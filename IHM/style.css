@@ -1,0 +1,89 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #beab83;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour la barre de navigation (navbar) */
+ul.navbar {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style pour un en-tête (header) */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+/* Style pour les sections principales */
+.main-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff; /* Couleur bleue pour les liens */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement des liens au survol */
+}
+
+/* Style pour les boutons */
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
