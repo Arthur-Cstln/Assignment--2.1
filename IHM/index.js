@@ -29,7 +29,7 @@ btn.onclick = () =>{
     .then(data => {
         const string = JSON.stringify(data);
         output.textContent = string;
-        console.table(string);
+        console.table(data);
     }).catch(error => {
         console.error("Une erreur s'est produite :", error)});
 }
