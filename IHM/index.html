@@ -24,6 +24,76 @@
 
     <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
     <script src= "index.js"></script>
+    <script src= "game.js"></script>
+
+    <br><br><br>
+
+
+    <!-- <input type="text" id="create" placeholder="Add Item ...">
+    <button id='btnC'>Create/Insert</button><br><br> -->
+
+    <h1>Insert data</h1>
+
+    <form action="/seed" method="post">
+
+        <label for="item_id">Item ID :</label>
+        <input type="text" id="item_id" name="item_id" placeholder="Item_id ..."><br><br>
+
+        <label for="item_name">Item Name :</label>
+        <input type="text" id="item_name" name="item_name" placeholder="Item_name ..."><br><br>
+    
+        <label for="item_type">Item type :</label>
+        <input type="text" id="item_type" name="item_type" placeholder="item_type ..." required><br><br>
+    
+        <label for="item_maxquantity">Max quantity :</label>
+        <input type="text" id="item_maxquantity" name="item_maxquantity" placeholder="item_maxquantity ..." required><br><br>
+    
+    
+        <button type="submit">Save data</button>
+    </form><br><br><br>
+
+    <!-- <input type="text" id="retrieve" placeholder="Select Item ...">
+    <button id='btnR'>Retrieve/Select</button><br><br> -->
+
+    <h1>Select data</h1>
+
+    <form action="/seed" method="get">
+        <label for="item_name">Search item : </label>
+        <input type="text" id="item_name" name="item_name" placeholder="Item name ...">
+        <button type="submit">Search</button><br><br><br>
+    </form>
+
+<!-- 
+    <input type="text" id="update" placeholder="Update Item ...">
+    <button id='btnU'>Update</button><br><br> -->
+
+    <h1>Update data</h1>
+
+    <form action="/seed" method="PUT">
+        
+        <label for="item_name">Update item :</label>
+        <input type="text" id="item_name" name="item_name" placeholder="update name ..."><br><br>
+        
+        <label for="item_maxquantity">Nouvelle quantité maximale :</label>
+        <input type="text" id="item_maxquantity" name="item_maxquantity" placeholder="update quantity ..."><br><br>
+        
+        
+        <button type="submit">Update</button><br><br><br>
+    </form>
+
+    <!-- <input type="text" id="delete" placeholder="Delete Item ...">
+    <button id='btnD'>Delete</button><br><br> -->
+
+    <h1>Delete data</h1>
+    
+    <form action="/seed" method="DELETE">
+        
+        <label for="item_id">Delete item :</label>
+        <input type="text" id="item_id" name="item_id" placeholder="id item ..."><br><br>
+        
+        <button type="submit">Delete</button>
+    </form>
+
 
     
     
